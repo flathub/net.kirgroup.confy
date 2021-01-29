@@ -25,7 +25,7 @@
         "*.a"
     ],
     "modules" : [
-        {
+         {
             "name" : "libhandy",
             "buildsystem" : "meson",
             "config-opts" : [
