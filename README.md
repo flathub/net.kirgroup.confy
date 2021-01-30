@@ -1,6 +1,6 @@
 # Confy on Flathub
 
-(Confy)[https://git.sr.ht/~fabrixxm/confy]
+[Confy](https://git.sr.ht/~fabrixxm/confy)
 
 Using the Flathub repository
 ----------------------------
