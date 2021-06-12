@@ -54,8 +54,8 @@
                 {
                     "type" : "git",
                     "url" : "https://git.sr.ht/~fabrixxm/confy",
-                    "tag" : "0.5.5",
-                    "commit" : "9a5d0e14892f5cf1b8a01c15f3294c8a2f152df1"
+                    "tag" : "0.6.0",
+                    "commit" : "3659db31f71648c5522813a37375dd43434036fd"
                 }
             ]
         }
