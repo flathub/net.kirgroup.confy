@@ -1,7 +1,7 @@
 {
     "app-id": "net.kirgroup.confy",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "41",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "command": "confy",
     "finish-args": [
@@ -24,25 +24,7 @@
         "*.la",
         "*.a"
     ],
-    "modules": [{
-            "name": "libhandy",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Dprofiling=false",
-                "-Dintrospection=enabled",
-                "-Dgtk_doc=false",
-                "-Dtests=false",
-                "-Dexamples=false",
-                "-Dvapi=false",
-                "-Dglade_catalog=disabled"
-            ],
-            "sources": [{
-                "type": "git",
-                "url": "https://gitlab.gnome.org/GNOME/libhandy.git",
-                "tag": "1.4.0",
-                "commit": "f8626427acebfa08b2b4ee1166d51e416d3d7407"
-            }]
-        },
+    "modules": [
         "python3-icalendar.json",
         {
             "name": "confy",
@@ -50,8 +32,8 @@
             "sources": [{
                 "type": "git",
                 "url": "https://git.sr.ht/~fabrixxm/confy",
-                "tag": "0.6.4",
-                "commit": "4a1c3551c1920bb54849d2f72681e6e017ac5201"
+                "tag": "0.6.5",
+                "commit": "868067376555f92d4078bc3271e5aa4e99f32d0d"
             }]
         }
     ]
