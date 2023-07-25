@@ -20,8 +20,8 @@
             "sources": [{
                 "type": "git",
                 "url": "https://git.sr.ht/~fabrixxm/confy",
-                "tag": "0.6.5",
-                "commit": "868067376555f92d4078bc3271e5aa4e99f32d0d"
+                "tag": "0.7.0",
+                "commit": "751f1cb84754fb41e31a673456b458d5c22206ca"
             }]
         }
     ]
