@@ -24,5 +24,9 @@
                 "commit": "751f1cb84754fb41e31a673456b458d5c22206ca"
             }]
         }
-    ]
+    ],
+    "build-options" : {
+        "env": {        },
+        "build-args": [ "--share=network" ]
+    }
 }
