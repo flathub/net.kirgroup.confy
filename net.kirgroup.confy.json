@@ -16,11 +16,11 @@
     	{
       		"name": "blueprint",
 		    "buildsystem": "meson",
-		    "sources": {
+		    "sources": [{
 			    "type": "git",
 			    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
 				"commit": "039d88ab45001cf799c421e58d4669a0596c4d29"
-			}
+			}]
 		},
         "python3-icalendar.json",
         {
