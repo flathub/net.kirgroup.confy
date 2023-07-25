@@ -19,7 +19,7 @@
 		    "sources": {
 			    "type": "git",
 			    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-				"commit": "aa7679618e864748f4f4d8f15283906e712752fe"
+				"commit": "039d88ab45001cf799c421e58d4669a0596c4d29"
 			}
 		},
         "python3-icalendar.json",
