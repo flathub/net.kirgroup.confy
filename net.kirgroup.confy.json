@@ -12,17 +12,16 @@
         "--device=dri",
         "--talk-name=org.freedesktop.Notifications"
     ],
-    "modules": [
-    	{
-      		"name": "blueprint",
-		    "buildsystem": "meson",
-		    "sources": [{
-			    "type": "git",
-			    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-			    "tag": "v0.8.1",
-				"commit": "aa7679618e864748f4f4d8f15283906e712752fe"
-			}]
-		},
+    "modules": [{
+            "name": "blueprint",
+            "buildsystem": "meson",
+            "sources": [{
+                "type": "git",
+                "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
+                "tag": "v0.8.1",
+                "commit": "aa7679618e864748f4f4d8f15283906e712752fe"
+            }]
+        },
         "python3-icalendar.json",
         {
             "name": "confy",
@@ -31,7 +30,7 @@
                 "type": "git",
                 "url": "https://git.sr.ht/~fabrixxm/confy",
                 "tag": "0.7.0",
-                "commit": "751f1cb84754fb41e31a673456b458d5c22206ca"
+                "commit": "e78a3d5826708b8f4b28ca34e1fc2cbf1df1443d"
             }]
         }
     ]
