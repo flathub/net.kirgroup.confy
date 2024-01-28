@@ -1,7 +1,7 @@
 {
     "app-id": "net.kirgroup.confy",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "45",
     "sdk": "org.gnome.Sdk",
     "command": "confy",
     "finish-args": [
@@ -36,8 +36,8 @@
                 {
                     "type": "git",
                     "url": "https://git.sr.ht/~fabrixxm/confy",
-                    "tag": "0.7.0",
-                    "commit": "e78a3d5826708b8f4b28ca34e1fc2cbf1df1443d"
+                    "tag": "0.7.1",
+                    "commit": "8e3785e0c0c359eea4c21ebd7904ec953681ec22"
                 }
             ]
         }
