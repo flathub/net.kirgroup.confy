@@ -38,6 +38,10 @@
                     "url": "https://git.sr.ht/~fabrixxm/confy",
                     "tag": "0.7.1",
                     "commit": "8e3785e0c0c359eea4c21ebd7904ec953681ec22"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-appdata.patch"
                 }
             ]
         }
