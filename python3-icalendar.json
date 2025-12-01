@@ -7,8 +7,13 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a5/b5/276bf1e5d0433144b27f707c40afe79e7e8863806837f42956053840a078/icalendar-6.1.0-py3-none-any.whl",
-            "sha256": "46c09b774a6e6948495dafcb166dc15135c8259d0ae25491f154cbc822714b69"
+            "url": "https://files.pythonhosted.org/packages/06/ee/2ff96bb5bd88fe03ab90aedf5180f96dc0f3ae4648ca264b473055bcaaff/icalendar-6.3.2-py3-none-any.whl",
+            "sha256": "d400e9c9bb8c025e5a3c77c236941bb690494be52528a0b43cc7e8b7c9505064"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl",
+            "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
         },
         {
             "type": "file",
@@ -17,8 +22,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/a6/ab/7e5f53c3b9d14972843a647d8d7a853969a58aecc7559cb3267302c94774/tzdata-2024.2-py2.py3-none-any.whl",
-            "sha256": "a48093786cdcde33cad18c2555e8532f34422074448fbc874186f0abd79565cd"
+            "url": "https://files.pythonhosted.org/packages/5c/23/c7abc0ca0a1526a0774eca151daeb8de62ec457e77262b66b359c3c7679e/tzdata-2025.2-py2.py3-none-any.whl",
+            "sha256": "1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8"
         }
     ]
 }
