@@ -1,10 +1,10 @@
 {
-    "app-id": "net.kirgroup.confy",
-    "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
-    "sdk": "org.gnome.Sdk",
-    "command": "confy",
-    "finish-args": [
+    "app-id" : "net.kirgroup.confy",
+    "runtime" : "org.gnome.Platform",
+    "runtime-version" : "49",
+    "sdk" : "org.gnome.Sdk",
+    "command" : "confy",
+    "finish-args" : [
         "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
@@ -12,18 +12,20 @@
         "--device=dri",
         "--talk-name=org.freedesktop.Notifications"
     ],
-    "modules": [
+    "modules" : [
         {
-            "name": "blueprint",
-            "buildsystem": "meson",
-            "cleanup": [
+            "name" : "blueprint",
+            "buildsystem" : "meson",
+            "cleanup" : [
                 "*"
             ],
-            "sources": [{
-                "type": "archive",
-                "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler/-/archive/v0.16.0/blueprint-compiler-v0.16.0.tar.gz",
-                "sha256": "01feb8263fe7a450b0a9fed0fd54cf88947aaf00f86cc7da345f8b39a0e7bd30"
-            }]
+            "sources" : [
+                {
+                    "type" : "archive",
+                    "url" : "https://gitlab.gnome.org/GNOME/blueprint-compiler/-/archive/0.18.0/blueprint-compiler-0.18.0.tar.gz",
+                    "sha256" : "51aa472ecd7bd4b32b8baa7ae6768b19810793d4a2a1aba39c5b31b0170cb258"
+                }
+            ]
         },
         "python3-icalendar.json",
         {
@@ -33,8 +35,8 @@
                 {
                     "type": "git",
                     "url": "https://git.sr.ht/~fabrixxm/confy",
-                    "tag": "0.8.1",
-                    "commit": "76638c6bc5f916f3baf45171d44a163774955ec3"
+                    "tag": "0.9.0",
+                    "commit": "f35dcf2736ee0f50af466d175d07d170cfcf4b3f"
                 }
             ],
             "config-opts" : []
