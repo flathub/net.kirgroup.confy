@@ -21,8 +21,8 @@
                 {
                     "type": "git",
                     "url": "https://git.sr.ht/~fabrixxm/confy",
-                    "tag": "0.9.0",
-                    "commit": "f35dcf2736ee0f50af466d175d07d170cfcf4b3f"
+                    "tag": "0.9.1",
+                    "commit": "a35c9c42435ee0f441de33553d726daec212b0af"
                 }
             ],
             "config-opts" : []
